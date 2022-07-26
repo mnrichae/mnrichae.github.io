@@ -51,7 +51,7 @@ html{
 }
 .page:hover, .page.is-active {
     transform: scale(1.8);
-    background: rgb(13, 46, 96) !important;
+    background: transparent;
 }
 
 /*content*/

@@ -26,20 +26,9 @@ html{
     padding: 0;
 }
 
-/* html {
-    box-sizing: border-box;
-    background: black;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "PingFang TC", "Heiti TC", 微軟正黑體, sans-serif;
-    font-size: 16px;
-    -webkit-font-smoothing: antialiased;
-    scroll-behavior: smooth;
-}
-*, *:before, *:after {
-    box-sizing: inherit;
-} */
 
 /*full page vertical slider*/
-.nav-dots {
+.pages {
     position: fixed;
     top: 50%;
     right: 5%;
@@ -48,7 +37,7 @@ html{
     padding: 0;
     cursor: pointer;
 }
-.nav-dot {
+.page {
     width: 10px;
     height: 10px;
     border: 2px solid #52616a;
@@ -57,12 +46,12 @@ html{
     background: #c9d6de;
     transition: all 0.3s;
 }
-.nav-dot:not(:last-of-type) {
+.page:not(:last-of-type) {
     margin-bottom: 20px;
 }
-.nav-dot:hover, .nav-dot.is-active {
+.page:hover, .page.is-active {
     transform: scale(1.8);
-    background: transparent;
+    background: rgb(13, 46, 96) !important;
 }
 
 /*content*/
@@ -74,12 +63,6 @@ html{
     padding: 10%;
 }
 
-/* .mainSection{
-    background-image: url(../media/one.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-} */
 
 .sectionName{
     display: flex;
@@ -87,7 +70,6 @@ html{
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    /* background-color: rgb(209, 209, 209, .7); */
     color: rgb(13, 46, 96, .8);
    
 }
@@ -110,25 +92,6 @@ html{
     margin: 0;
 }
 
-.summSection{
-    background-image: url(../media/me.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-#bgVideo {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
-  }
-
 
 .summSectionTitle{
     color: rgb(13, 46, 96, .8);
@@ -144,53 +107,12 @@ html{
 }
 
 
-
-
-@media screen and (max-width: 690px) {
-
-    .summSection{
-        background-color: white;
-        background-image: url(../media/two.png);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        height: 100%;
-    }
-
-    .summSectionTitle{
-        margin-left: 0px;
-    }
-    
-    .summSectionTxt{
-        margin-left: 0px;
-    }
-    
-    .summSectionBtns{
-        display: flex;
-        margin-left: 0px;
-    }
-}
-
 .btnLinkedIn{
     background-color: rgb(13, 46, 96, .8) !important; 
     color: #ffffff !important;
 }
 
-.btnDownload{
-    background-color: #a8a7a7 !important;
-    color: #ffffff !important;
-}
 
-/* .btnLinkedIn:hover, .btnLinkedIn:focus, .btnLinkedIn:active {
-    background-color: #a8a7a7 !important;
-    color: #ffffff !important;
-} */
-.btnDownload:hover, .btnDownload:focus, .btnDownload:active{
-    /* background-color: rgb(13, 46, 96, .8) !important;  */
-    /* border: 1px solid rgb(13, 46, 96) !important; */
-    /* color: #d1d1d1 !important; */
-    border: none;
-
-}
 
 .projSectionTitle{
     display: flex;

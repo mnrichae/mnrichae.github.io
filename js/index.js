@@ -1,53 +1,56 @@
+//reference: https://codepen.io/st_mercy/pen/abqveLJ
+
 class Slider {
-    constructor(options) {
-      this.sections = document.querySelectorAll(options.section);
-      this.navigation = document.querySelector(options.dots);
+    constructor(pages) {
+      this.sections = document.querySelectorAll(pages.section); //gets sections
+      this.sidenav = document.querySelector(pages.dots); //gets lists of ul: #pages
   
-      this.navigation.addEventListener('click', this.scrollToSection.bind(this));
-      window.addEventListener('scroll', this.setDotStatus.bind(this));
+      this.sidenav.addEventListener('click', this.clickToSection.bind(this));
+      window.addEventListener('scroll', this.isActive.bind(this));
     }
+
+    clickToSection(e) {
+      const lists = Array.from(this.sidenav.children);
+      const windowHeight = window.innerHeight;
   
-    removeDotStyles() {
-      const dots = this.navigation;
-      const is_active = dots.querySelector('.is-active');
-  
-      if (is_active != null) {
-        is_active.classList.remove('is-active');
-      }
-    }
-  
-    setDotStatus() {
-      const scroll_position = window.scrollY;
-      const dots = Array.from(this.navigation.children);
-  
-      this.sections.forEach((section, index) => {
-        const half_window = window.innerHeight / 2;
-        const section_top = section.offsetTop;
-  
-        if (scroll_position > section_top - half_window && scroll_position < section_top + half_window) {
-          this.removeDotStyles();
-          dots[index].classList.add('is-active');
-        }
-      })
-    }
-  
-    scrollToSection(e) {
-      const dots = Array.from(this.navigation.children);
-      const window_height = window.innerHeight;
-  
-      dots.forEach((dot, index) => {
-        if (dot == e.target) {
+      lists.forEach((list, index) => {
+        if (list == e.target) {
   
           window.scrollTo({
-            top: window_height * index,
+            top: windowHeight * index,
             behavior: 'smooth',
           });
         }
       });
     }
+  
+    setToRegular() {
+      const lists = this.sidenav;
+      const isActive = lists.querySelector('.is-active'); //from style.css
+      if (isActive != null) {
+        isActive.classList.remove('is-active');
+      }
+    }
+  
+    isActive() {
+      const position = window.scrollY;
+      const lists = Array.from(this.sidenav.children);
+  
+      this.sections.forEach((section, index) => {
+        const halfWindow = window.innerHeight / 2;
+        const section_top = section.offsetTop;
+  
+        if (position > section_top - halfWindow && position < section_top + halfWindow) {
+          this.setToRegular();
+          lists[index].classList.add('is-active');
+        }
+      })
+    }
+  
+    
   }
   
   new Slider({
     section: '.section',
-    dots: '#js-dots',
+    dots: '#pages',
   });

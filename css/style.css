@@ -36,6 +36,7 @@ html{
     margin: 0;
     padding: 0;
     cursor: pointer;
+    z-index: 9999
 }
 .page {
     width: 10px;
@@ -64,15 +65,15 @@ html{
 }
 
 
-.sectionName{
+.my_name{
     display: flex;
     font-size: 60px;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
     color: rgb(13, 46, 96, .8);
-   
 }
+
 
 .btnsMain{
     display: flex;
@@ -88,37 +89,16 @@ html{
 
 
 
-.section__heading {
+.labels {
     margin: 0;
-}
-
-
-.summSectionTitle{
     color: rgb(13, 46, 96, .8);
-    margin-left: 250px;
-}
-
-.summSectionTxt{
-    margin-left: 250px;
-}
-
-.txt{
-    color: rgb(13, 46, 96, .8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .btnLinkedIn{
     background-color: rgb(13, 46, 96, .8) !important; 
     color: #ffffff !important;
-}
-
-
-
-.projSectionTitle{
-    display: flex;
-    justify-content: center;
-    color: 1px solid rgb(13, 46, 96) !important;
-    padding: 10px;
-    background-color:rgb(209, 209, 209, .7);
-    border-radius: 10px;
 }

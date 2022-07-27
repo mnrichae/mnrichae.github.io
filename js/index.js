@@ -54,3 +54,5 @@ class Slider {
     section: '.section',
     dots: '#pages',
   });
+
+//reference: https://codepen.io/st_mercy/pen/abqveLJ

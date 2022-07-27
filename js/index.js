@@ -1,6 +1,4 @@
-//Disclaimer: this is not my own code. 
-//I was focusing on KodeGo mini-project 2 and did not prioritize this.
-//full credits to: https://codepen.io/st_mercy/pen/abqveLJ
+
 
 class Slider {
     constructor(pages) {

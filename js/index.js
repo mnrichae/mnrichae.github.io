@@ -1,4 +1,4 @@
-//reference: https://codepen.io/st_mercy/pen/abqveLJ
+
 
 class Slider {
     constructor(pages) {
@@ -54,3 +54,5 @@ class Slider {
     section: '.section',
     dots: '#pages',
   });
+
+//reference: https://codepen.io/st_mercy/pen/abqveLJ

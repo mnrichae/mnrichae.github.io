@@ -74,6 +74,6 @@ const itemData = [
   {
     img: "https://www.youtube.com/embed/JZ65dONZCcQ",
     title: 'Clinic System',
-    live: "https://github.com/mnrichae/smallclinicsystem",
+    live: "https://mnrichae.github.io/smallclinicsystem/",
   },
 ];

@@ -28,6 +28,57 @@ function Skills(props)
 
     const firstSlide = [
         {
+            img: MERN,
+            title: 'MERN',
+        },
+        {
+            img: Laravel,
+            title: 'Laravel',
+        },
+        {
+            img: AWS,
+            title: 'AWS',
+        }
+
+       
+        
+    ];
+
+    const secondSlide = [
+        {
+            img: BS,
+            title: 'Bootstrap',
+        },
+        {
+            img: MUI,
+            title: 'MaterialUI',
+        },
+        {
+            img: PHP,
+            title: 'PHP',
+        },
+       
+    ];
+
+    const thirdSlide = [
+        {
+            img: MYSQL,
+            title: 'mySQL',
+        },
+        {
+            img: GITHUB,
+            title: 'GITHUB',
+        },
+        {
+            img: JAVA,
+            title: 'Java',
+        },
+        
+       
+    ];
+
+    const fourthSlide = [
+        {
             img: HTML,
             title: 'HTML',
         },
@@ -39,55 +90,9 @@ function Skills(props)
             img: JS,
             title: 'Javascript',
         }
-        
-    ];
 
-    const secondSlide = [
-        {
-            img: JAVA,
-            title: 'Java',
-        },
-        {
-            img: BS,
-            title: 'Bootstrap',
-        },
-        {
-            img: MUI,
-            title: 'MaterialUI',
-        },
        
-    ];
-
-    const thirdSlide = [
-        {
-            img: Laravel,
-            title: 'Laravel',
-        },
-        {
-            img: PHP,
-            title: 'PHP',
-        },
-        {
-            img: MERN,
-            title: 'MERN',
-        }
         
-       
-    ];
-
-    const fourthSlide = [
-        {
-            img: MYSQL,
-            title: 'mySQL',
-        },
-        {
-            img: GITHUB,
-            title: 'GITHUB',
-        },
-        {
-            img: AWS,
-            title: 'AWS',
-        }
     ];
 
     return (

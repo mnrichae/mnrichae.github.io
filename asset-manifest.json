@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/mnrichae.github.io/static/css/main.cd987557.css",
+    "main.js": "/mnrichae.github.io/static/js/main.f316f691.js",
+    "static/media/display.jpg": "/mnrichae.github.io/static/media/display.ccc31766cec547046458.jpg",
+    "static/media/MERN.png": "/mnrichae.github.io/static/media/MERN.723982aca99f4922773c.png",
+    "static/media/Laravel.png": "/mnrichae.github.io/static/media/Laravel.dde03f246f0daab5a091.png",
+    "static/media/Java.png": "/mnrichae.github.io/static/media/Java.779eaafde557e09ce5f9.png",
+    "static/media/Github.png": "/mnrichae.github.io/static/media/Github.59d4d1103f81b45ae374.png",
+    "static/media/Bootstrap.png": "/mnrichae.github.io/static/media/Bootstrap.2ab3fb911c0e8ddd9877.png",
+    "static/media/AWS.png": "/mnrichae.github.io/static/media/AWS.e28e6826bd09157a881a.png",
+    "static/media/mySQL.png": "/mnrichae.github.io/static/media/mySQL.e7bd3cc3baf0fcdab030.png",
+    "static/media/php.png": "/mnrichae.github.io/static/media/php.8bf5b6fbf36aac610dd8.png",
+    "static/media/CSS.png": "/mnrichae.github.io/static/media/CSS.3deb71d4ff37d4bc8c60.png",
+    "static/media/HTML.png": "/mnrichae.github.io/static/media/HTML.0c729a5e0811e879f52a.png",
+    "static/media/JS.png": "/mnrichae.github.io/static/media/JS.39a6b25609ae0efa949f.png",
+    "static/media/MUI.png": "/mnrichae.github.io/static/media/MUI.adff089e7bf984dc0340.png",
+    "index.html": "/mnrichae.github.io/index.html",
+    "main.cd987557.css.map": "/mnrichae.github.io/static/css/main.cd987557.css.map",
+    "main.f316f691.js.map": "/mnrichae.github.io/static/js/main.f316f691.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd987557.css",
+    "static/js/main.f316f691.js"
+  ]
+}

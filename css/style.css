@@ -8,12 +8,6 @@ a{
     text-decoration: none !important;
 }
 
-.projectLink{
-    font-weight: 600;
-}
-.projectLink:hover, .projectLink:focus, .projectLink:active{
-    color: rgb(13, 46, 96) !important;
-}
 
 body{
     margin: 0;
@@ -98,7 +92,8 @@ html{
 }
 
 
-.btnLinkedIn{
+.btnLinkedIn,
+.btn{
     background-color: rgb(13, 46, 96, .8) !important; 
     color: #ffffff !important;
 }

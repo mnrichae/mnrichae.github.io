@@ -29,6 +29,7 @@ export default function Projects() {
                   image={item.img}
                   sx={{height: '20em'}}
                 />
+                <h6>{item.title}</h6>
                 <Button href={item.live} target="_blank" variant="contained" sx={{marginTop: '0.5em', backgroundColor: '#0D2E60'}}>
                   View Demo
                 </Button>

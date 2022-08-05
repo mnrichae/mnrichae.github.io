@@ -29,9 +29,8 @@ export default function Projects() {
                   image={item.img}
                   sx={{height: '20em'}}
                 />
-                <h6>{item.title}</h6>
                 <Button href={item.live} target="_blank" variant="contained" sx={{marginTop: '0.5em', backgroundColor: '#0D2E60'}}>
-                  View Demo
+                  {item.live === '' ? 'No Demo Yet' : "Try Demo"}
                 </Button>
                 
             </Grid>
@@ -73,8 +72,8 @@ const itemData = [
     live: "https://leojomar01.github.io/MiniProject-2/",
   },
   {
-    img: "",
+    img: "https://www.youtube.com/embed/_M3rJ7d9gC0",
     title: 'Pending MERN Project',
-    live: "/",
+    live: "",
   },
 ];

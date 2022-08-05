@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cd987557.css",
-    "main.js": "/static/js/main.0bfe4c42.js",
+    "main.js": "/static/js/main.9232d6b7.js",
     "static/media/display.jpg": "/static/media/display.ccc31766cec547046458.jpg",
     "static/media/MERN.png": "/static/media/MERN.723982aca99f4922773c.png",
     "static/media/Laravel.png": "/static/media/Laravel.dde03f246f0daab5a091.png",
@@ -17,10 +17,10 @@
     "static/media/MUI.png": "/static/media/MUI.adff089e7bf984dc0340.png",
     "index.html": "/index.html",
     "main.cd987557.css.map": "/static/css/main.cd987557.css.map",
-    "main.0bfe4c42.js.map": "/static/js/main.0bfe4c42.js.map"
+    "main.9232d6b7.js.map": "/static/js/main.9232d6b7.js.map"
   },
   "entrypoints": [
     "static/css/main.cd987557.css",
-    "static/js/main.0bfe4c42.js"
+    "static/js/main.9232d6b7.js"
   ]
 }

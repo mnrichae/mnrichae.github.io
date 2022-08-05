@@ -72,8 +72,8 @@ const itemData = [
     live: "https://leojomar01.github.io/MiniProject-2/",
   },
   {
-    img: "https://www.youtube.com/embed/JZ65dONZCcQ",
-    title: 'Clinic System',
-    live: "https://mnrichae.github.io/smallclinicsystem/",
+    img: "",
+    title: 'Pending MERN Project',
+    live: "/",
   },
 ];
